@@ -177,7 +177,7 @@
             convenience:
           </p>
           <div class="recipes__videos">
-            <div class="recipe__video">
+            <div class="recipes__video-item">
               <div class="recipes__iframe">
                 <iframe
                   class="iframe"
@@ -195,7 +195,7 @@
                 ~5 min
               </h4>
             </div>
-            <div class="recipe__video">
+            <div class="recipes__video-item">
               <div class="recipes__iframe">
                 <iframe
                   class="iframe"
@@ -219,41 +219,43 @@
         <section id="reservation" class="reservation">
           <h2 class="reservation__title">Book a table</h2>
           <div class="reservation__form">
-            <form class="form__fieldset">
-              <fieldset class="form__label">
-                <label for="name" class="form__label">Name*</label>
+            <form class="form form__fieldset">
+              <fieldset class="form form__label">
+                <label for="name" class="form form__label">Name*</label>
                 <input
                   type="text"
-                  class="form__input"
+                  class="form form__input"
                   id="name"
                   name="name"
                   placeholder="Name Surname"
                   required
                 />
-                <label for="guests" class="form__label">Numer of guests*</label>
+                <label for="guests" class="form form__label"
+                  >Numer of guests*</label
+                >
                 <input
                   type="number"
-                  class="form__input"
+                  class="form form__input"
                   min="1"
                   max="8"
                   id="guests"
                   placeholder="1-8"
                   required
                 />
-                <label for="datetime-local" class="form__label"
+                <label for="datetime-local" class="form form__label"
                   >Date & time*</label
                 >
                 <input
                   type="datetime-local"
-                  class="form__input"
+                  class="form form__input"
                   id="datetime-local"
                   name="datetime-local"
                   required
                 />
-                <label for="email" class="form__label">Your email*</label>
+                <label for="email" class="form form__label">Your email*</label>
                 <input
                   type="email"
-                  class="form__input"
+                  class="form form__input"
                   id="email"
                   name="email"
                   placeholder="email@email.com"
