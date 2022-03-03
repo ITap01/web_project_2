@@ -73,7 +73,7 @@
   line-height: 20px;
 }
 
-.card_list-divider {
+.card__list-divider {
   content: "";
   min-width: 50px;
   border-bottom: 1px solid #d9e7ff;
