@@ -36,6 +36,10 @@
 .recipe__video {
 }
 
+.iframe {
+  border: none;
+}
+
 .recipes__iframe {
   display: flex;
   align-items: flex-start;

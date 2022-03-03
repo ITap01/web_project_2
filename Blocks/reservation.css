@@ -76,6 +76,7 @@
 .form__checkbox-section {
   display: flex;
   align-items: flex-end;
+  border: none;
 }
 
 .form__checkbox {

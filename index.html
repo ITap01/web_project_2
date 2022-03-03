@@ -180,36 +180,36 @@
             <div class="recipe__video">
               <div class="recipes__iframe">
                 <iframe
+                  class="iframe"
                   width="480"
                   height="273"
                   src="https://www.youtube.com/embed/j6VlT_jUVPc"
                   title="YouTube video player"
-                  frameborder="0"
                   allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
                   allowfullscreen
                 ></iframe>
               </div>
               <h4 class="recipes__video-caption">
                 Aeropress recipe
-                <div class="recipes__video-caption-divider"></div>
+                <span class="recipes__video-caption-divider"></span>
                 ~5 min
               </h4>
             </div>
             <div class="recipe__video">
               <div class="recipes__iframe">
                 <iframe
+                  class="iframe"
                   width="480"
                   height="273"
                   src="https://www.youtube.com/embed/st571DYYTR8"
                   title="YouTube video player"
-                  frameborder="0"
                   allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
                   allowfullscreen
                 ></iframe>
               </div>
               <h4 class="recipes__video-caption">
                 French press recipe
-                <div class="recipes__video-caption-divider"></div>
+                <span class="recipes__video-caption-divider"></span>
                 ~15 min
               </h4>
             </div>
@@ -237,16 +237,17 @@
                   min="1"
                   max="8"
                   id="guests"
-                  value="1-8"
                   placeholder="1-8"
                   required
                 />
-                <label for="datetime" class="form__label">Date & time*</label>
+                <label for="datetime-local" class="form__label"
+                  >Date & time*</label
+                >
                 <input
-                  type="datetime"
+                  type="datetime-local"
                   class="form__input"
-                  id="datetime"
-                  name="datetime"
+                  id="datetime-local"
+                  name="datetime-local"
                   required
                 />
                 <label for="email" class="form__label">Your email*</label>
@@ -260,18 +261,18 @@
                 />
               </fieldset>
               <button type="submit" class="form__button">Book a table</button>
-              <div class="form__checkbox-section">
+              <fieldset class="form__checkbox-section">
                 <input
                   type="checkbox"
                   class="form__checkbox"
-                  name="terms-of-use"
-                  id="terms-of-use"
+                  name="terms"
+                  id="terms"
                   required
                 />
-                <label for="terms-of-use" id="terms-of-use" class="form__label"
+                <label for="terms" class="form__label"
                   >I agree with the terms of use</label
                 >
-              </div>
+              </fieldset>
             </form>
           </div>
         </section>
