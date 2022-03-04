@@ -18,6 +18,8 @@
   font-weight: 500;
   font-size: 60px;
   line-height: 72px;
+  position: relative;
+  z-index: 2;
 }
 
 .header__span-accent {
@@ -36,14 +38,16 @@
   font-size: 20px;
   line-height: 30px;
   max-width: 665px;
+  position: relative;
+  z-index: 2;
 }
 
 .header__image {
   top: 124px;
   right: 5px;
   max-width: 646px;
-  position: absolute;
   z-index: 1;
+  position: absolute;
 }
 
 .header__footer {
@@ -63,8 +67,4 @@
 
 .header__paragraph {
   margin: 0;
-}
-
-.header__address {
-  font-style: normal;
 }
